@@ -13,6 +13,6 @@
         "pdfjs-dist": "^4.1.392"
     },
     "engines": {
-        "node": "18.x"
+        "node": "24.x"
     }
 }
