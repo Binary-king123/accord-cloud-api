@@ -1,7 +1,7 @@
 {
     "name": "accord-cloud-api",
     "version": "1.0.0",
-    "description": "Vercel serverless API for Accord OS PDF to JPG conversion",
+    "description": "Node.js persistent API for Accord OS PDF to JPG conversion",
     "main": "server.js",
     "scripts": {
         "start": "node server.js"
