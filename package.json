@@ -2,17 +2,20 @@
     "name": "accord-cloud-api",
     "version": "1.0.0",
     "description": "Vercel serverless API for Accord OS PDF to JPG conversion",
-    "main": "api/convert.js",
+    "main": "server.js",
     "scripts": {
-        "start": "node api/convert.js"
+        "start": "node server.js"
     },
     "dependencies": {
         "@napi-rs/canvas": "^0.1.53",
         "adm-zip": "^0.5.10",
+        "cors": "^2.8.6",
+        "dotenv": "^17.3.1",
+        "express": "^5.2.1",
         "formidable": "^3.5.1",
         "pdfjs-dist": "^4.1.392"
     },
     "engines": {
-        "node": "24.x"
+        "node": ">= 18.x"
     }
 }
